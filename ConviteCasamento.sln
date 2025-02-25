@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConviteCasamento.API", "ConviteCasamento.API\ConviteCasamento.API.csproj", "{CA2F0CAC-EFE8-46F7-91A6-F06956128168}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConviteCasamento.Domain", "ConviteCasamento.Domain\ConviteCasamento.Domain.csproj", "{7D1568F7-251A-4167-BEFD-23D4B1511DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConviteCasamento.Infrastructure", "ConviteCasamento.Infrastructure\ConviteCasamento.Infrastructure.csproj", "{75F458F3-32A8-4C92-8877-7162C35E6CB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConviteCasamento.Application", "ConviteCasamento.Application\ConviteCasamento.Application.csproj", "{AEFB1468-1243-4DA3-94B3-3503DA550794}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConviteCasamento.Tests", "ConviteCasamento.Tests\ConviteCasamento.Tests.csproj", "{695A95F4-BF3B-47AC-B8B2-2EEE06FB9C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09E21FB2-3460-4652-AE4A-97D129A9774C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA2F0CAC-EFE8-46F7-91A6-F06956128168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2F0CAC-EFE8-46F7-91A6-F06956128168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2F0CAC-EFE8-46F7-91A6-F06956128168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2F0CAC-EFE8-46F7-91A6-F06956128168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1568F7-251A-4167-BEFD-23D4B1511DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1568F7-251A-4167-BEFD-23D4B1511DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1568F7-251A-4167-BEFD-23D4B1511DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1568F7-251A-4167-BEFD-23D4B1511DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F458F3-32A8-4C92-8877-7162C35E6CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F458F3-32A8-4C92-8877-7162C35E6CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F458F3-32A8-4C92-8877-7162C35E6CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F458F3-32A8-4C92-8877-7162C35E6CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFB1468-1243-4DA3-94B3-3503DA550794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFB1468-1243-4DA3-94B3-3503DA550794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFB1468-1243-4DA3-94B3-3503DA550794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFB1468-1243-4DA3-94B3-3503DA550794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695A95F4-BF3B-47AC-B8B2-2EEE06FB9C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695A95F4-BF3B-47AC-B8B2-2EEE06FB9C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695A95F4-BF3B-47AC-B8B2-2EEE06FB9C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695A95F4-BF3B-47AC-B8B2-2EEE06FB9C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27965F9-7E0A-4EF7-8EE4-2141CE3C7179}
+	EndGlobalSection
+EndGlobal
