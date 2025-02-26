@@ -19,11 +19,11 @@ namespace ConviteCasamento.API.Controller
         }
 
         [HttpPost("AdicionarAcompanhante")]
-        public async Task<IActionResult> AdicionarAcompanhante([FromBody] ConvidadoViewModel convidadoVM, [FromBody] AcompanhanteViewModel acompanhanteVM)
+        public async Task<IActionResult> AdicionarAcompanhante([FromBody] ConvidadoViewModel convidadoVM)
         {
             try
             {
-                var acompanhante = await _service.AdicionarAcompanhanteAsync(convidadoVM, acompanhanteVM);
+                var acompanhante = await _service.AdicionarAcompanhanteAsync(convidadoVM, convidadoVM.Acompanhante);
                 return Ok(acompanhante);
             }
             catch (Exception ex)
